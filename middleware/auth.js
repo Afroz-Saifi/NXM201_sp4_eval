@@ -1,4 +1,4 @@
-const { client } = require("../helper/redis");
+// const { client } = require("../helper/redis");
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
 const authentication = async (req, res, next) => {

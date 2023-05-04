@@ -1,15 +1,15 @@
-const { createClient } = require("redis");
+// const { createClient } = require("redis");
 
-const client = createClient();
+// const client = createClient();
 
-client.on("connection", () => console.log("connected to redis"));
+// client.on("connection", () => console.log("connected to redis"));
 
-client.on("error", (err) => {
-  console.log("Redis Client Error", err);
-});
+// client.on("error", (err) => {
+//   console.log("Redis Client Error", err);
+// });
 
-client.on("disconnect", () => console.log("redis client disconnected"));
+// client.on("disconnect", () => console.log("redis client disconnected"));
 
-client.connect();
+// client.connect();
 
-module.exports = { client };    
+// module.exports = { client };    
